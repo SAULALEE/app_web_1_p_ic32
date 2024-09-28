@@ -1,0 +1,103 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+#contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Navegación */
+nav {
+    background-color: #e0f7fa;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #004d40;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background: url("../Img/principal.jpg");
+    background-size: cover;
+    padding: 60px 20px;
+    /* Agrega espacio para que el texto sea legible */
+    position: relative;
+    color: white;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Contenido principal */
+main h2,
+main h3,
+main h4,
+main h5 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f4c3;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #777;
+}

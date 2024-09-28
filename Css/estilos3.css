@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f5f5f5;
+}
+
+#contenedor {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    background: url('../Img/principal_gourmet.jpg');
+    background-size: cover;
+    padding: 50px 0;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #c0392b;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    background-color: #ecf0f1;
+}
+
+#logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#menu {
+    display: flex;
+    width: 80%;
+}
+
+#menu ol {
+    list-style: none;
+    display: flex;
+}
+
+#menu ol li {
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+#menu ol li a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+#menu ol li a:hover {
+    color: #e74c3c;
+}
+
+section,
+main {
+    padding: 20px;
+    display: flex;
+}
+
+aside {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 48%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #bdc3c7;
+}
+
+footer table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer table th,
+footer table td {
+    padding: 10px;
+    text-align: center;
+}

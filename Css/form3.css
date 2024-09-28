@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    /* Fondo blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.contenedor-formulario {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+    /* Fondo del formulario blanco */
+    border-radius: 10px;
+    border: 1px solid #000;
+    /* Borde negro */
+    color: #000;
+    /* Color de texto negro */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+    /* Título en negro */
+}
+
+label {
+    margin-bottom: 5px;
+    color: #000;
+    /* Etiquetas en negro */
+}
+
+input,
+select,
+textarea,
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    /* Borde negro */
+    background-color: transparent;
+    color: #000;
+    /* Texto en negro */
+    width: 100%;
+    margin-bottom: 15px;
+    /* Separación entre los campos */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #555;
+    /* Color gris oscuro para los placeholders */
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+button {
+    background-color: #000;
+    /* Fondo del botón negro */
+    color: #fff;
+    /* Texto blanco para el botón */
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #333;
+    /* Botón más oscuro al pasar el cursor */
+}
+
+.foto-perfil {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    /* Borde negro alrededor de la foto */
+}
+
+.fila {
+    display: flex;
+}
+
+.columna {
+    flex: 1;
+    margin-right: 15px;
+}
+
+.columna:last-child {
+    margin-right: 0;
+}
+
+.terminos {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.terminos input {
+    margin-right: 10px;
+    width: auto;
+}
+
+.terminos label {
+    margin: 0;
+}

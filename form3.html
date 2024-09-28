@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="Css/form3.css">
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+        <form>
+            <img src="Img/perfil.jpg" alt="Foto de Perfil" class="foto-perfil">
+            <h1>Formulario de Contacto</h1>
+
+            <div class="fila">
+                <div class="columna">
+                    <label for="nombre">Nombre(s)</label>
+                    <input type="text" id="nombre" placeholder="Escribe tu nombre(s)" required>
+                </div>
+                <div class="columna">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" placeholder="Escribe tus apellidos" required>
+                </div>
+            </div>
+
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" placeholder="Escribe tu dirección" required>
+
+            <div class="fila">
+                <div class="columna">
+                    <label for="municipio">Municipio</label>
+                    <select id="municipio" required>
+                        <option value="">Selecciona tu municipio</option>
+                        <option value="">Municipio 1</option>
+                        <option value="">Municipio 2</option>
+                        <option value="">Municipio 3</option>
+                        <!-- Opciones de municipios -->
+                    </select>
+                </div>
+                <div class="columna">
+                    <label for="estado">Estado</label>
+                    <select id="estado" required>
+                        <option value="">Selecciona tu estado</option>
+                        <option value="">Estado 1</option>
+                        <option value="">Estado 2</option>
+                        <option value="">Estado 3</option>
+                        <!-- Opciones de estados -->
+                    </select>
+                </div>
+                <div class="columna">
+                    <label for="cp">C.P.</label>
+                    <input type="text" id="cp" placeholder="Código Postal" required>
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="columna">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" placeholder="Escribe tu teléfono" required>
+                </div>
+                <div class="columna">
+                    <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+                    <input type="date" id="fecha_nacimiento" required>
+                </div>
+            </div>
+
+            <div class="terminos">
+                <input type="checkbox" id="terminos" required>
+                <label for="terminos">Acepto Términos y Condiciones</label>
+            </div>
+
+            <label for="comentarios">Comentarios Adicionales</label>
+            <textarea id="comentarios" placeholder="Escribe tus comentarios adicionales"></textarea>
+
+            <button type="submit">Remitir</button>
+        </form>
+    </div>
+</body>
+
+</html>

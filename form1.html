@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <form method="get">
+            <p>
+                <label for="nombre">Nombre</label><br><br>
+                <input type="text" id="nombre" name="nombre" size="40" autofocus required
+                    placeholder="Escriba su nombre o nombres">
+            </p>
+
+            <p>
+                <label for="apellidos">Apellidos</label><br><br>
+                <input type="text" id="apellidos" name="apellidos" size="40" required
+                    placeholder="Escriba sus apellidos" name="apellidos">
+            </p>
+
+            <p>
+                <input type="submit" name="enviar" value="Enviar">
+            </p>
+            <label for="estatus">Estatus</label><br><br>
+            <input type="text" name="estatus" value="Activo" readonly title="Este valor es solo de lectura">
+            <p>
+                <label for="contraseña">Escriba su contraseña</label><br><br>
+                <input type="password" id="contraseña" name="contraseña" required placeholder="Ejemplo Antonio0#12">
+            </p>
+
+            <p>
+                <input type="hidden" name="nip" value="756">
+            </p>
+
+            <p>
+                <label for="navegador">Navegador Favorito</label><br><br>
+                <select id="navegador" name="navegador required">
+                    <option value="crohome">Google Chorme</option>
+                    <option value="opera">Opera GX</option>
+                    <option value="firefox">Mozilla Firefox</option>
+            </p>
+            </select>
+        </form>
+    </div>
+</body>
+
+</html>
